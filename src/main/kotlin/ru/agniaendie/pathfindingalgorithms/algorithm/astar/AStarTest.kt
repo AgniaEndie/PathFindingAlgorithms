@@ -55,7 +55,7 @@ class AStarTest {
 
         b0.edges = listOf(b1Tob0, b2Tob0, b3Tob0)
         startElem = a0
-        endElem = b2
+        endElem = b0
     }
 
     fun findPathBFS(start: Node,end:Node): MutableList<Node> {
