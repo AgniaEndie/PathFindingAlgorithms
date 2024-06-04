@@ -27,7 +27,7 @@ tasks.withType(JavaCompile) {
 
 application {
     mainModule = 'ru.agniaendie.pathfindingalgorithms'
-    mainClass = 'ru.agniaendie.pathfindingalgorithms.HelloApplication'
+    mainClass = 'ru.agniaendie.pathfindingalgorithms.HelloApplicationKt'
 }
 
 [compileKotlin, compileTestKotlin].forEach {
